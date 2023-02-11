@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    font-family: 'QuickSand', serif;
+}
+
+@font-face {
+    font-family: 'QuickSand';
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px;
+}
+
+.LogoHeader{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.LogoHeadera{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.navbarul{
+    display: flex;
+    list-style: none;
+    font-family: 'QuickSand', sans-serif;
+    color: darkslategray;
+    font-size: 28px;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+.navbarli{
+    margin-left: 23px;
+    transition: 0.2s;
+}
+
+.navbarli:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.navbara{
+    color: darkslategray;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navbara:hover{
+    color: black;
+}
+
+.buttonheader{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+}
+
+.buttonheader:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+/* Main */
+
+.naslovlogin{
+    color: white;
+    font-size: 55px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+form{
+    background-color: rgb(104, 159, 206);
+    border: 3px solid rgb(90, 138, 181);
+    border-radius: 20px;
+    padding-top: 30px;
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    height: 500px;
+}
+
+label{
+    color: white;
+    font-size: 30px;
+}
+
+input{
+    border: none;
+    height: 40px;
+    width: 80%;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+p{
+    color: rgb(194, 41, 41); 
+    font-size: 18px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.checkbox1, .checkbox2{
+    width: 16px;
+    height: 16px;
+    margin-left: -55%;
+}
+
+.labelcheckbox1, .labelcheckbox2{
+    font-size: 20px;
+}
+
+
+.loginbtn{
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(47, 80, 201);
+    color: white;
+    font-size: 28px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.loginbtn:hover{
+    cursor: pointer;
+    background-color: rgb(38, 65, 160);
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(95, 121, 143);
+    height: 118px;
+}
+
+/* Kad skontam sta ide u footer */
+
+
+
+
+
+
+/* Responsive */
+
+.navbarulresponsive{
+    list-style: none;
+}
+
+.navbararesponsive{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.navbararesponsive:hover{
+    text-decoration: underline;
+}
+
+.buttonheaderresponsive{
+        background-color: rgb(47, 80, 201);
+        border: 1px solid rgb(47, 80, 201);
+        color: white;
+        font-family: 'QuickSand', sans-serif;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-right: 100px;
+        transition: 0.2s;
+        display: none;
+}
+
+.buttonheaderresponsive:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+.responsivenavbar{
+    background-color: rgb(137, 189, 234);
+    font-family: 'QuickSand', serif;
+    background-color: rgb(137, 189, 234);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.buttonheaderresponsive2{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.buttonheaderresponsive2:hover{
+    background-color: white;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1150px){
+    .LogoHeader{
+        margin-left: 50px;
+    }
+
+    .navbarul{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1065px){
+    .buttonheader{
+        margin-right: 50px;
+    }
+    
+    .buttonheader{
+        display: none;
+    }
+
+    .buttonheaderresponsive{
+        display: block;
+    }
+
+    .navbarul{
+        display: none;
+    }
+
+    .checkbox1{
+        margin-left: -53%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+
+    .checkbox1{
+        margin-left: -45%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .checkbox1{
+        margin-left: -40%;
+    }
+
+    .labelcheckbox1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .checkbox1{
+        margin-left: -35%;
+        height: 14px;
+        width: 14px;
+    }
+
+    .labelcheckbox1{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+
+    .naslovlogin{
+        font-size: 50px;
+    }
+
+    input{
+        width: 70%;
+        font-size: 18px;
+    }
+
+    label{
+        font-size: 28px;
+    }
+
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+
+    .ime, .prezime, .username, .email, .confirmemail, .password, .confirmpassword{
+        height: 160px;
+    }
+
+    .labelcheckbox1{
+        font-size: 17px;
+    }
+
+    .checkbox1{
+        margin-left: -20%;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .naslovlogin{
+        font-size: 40px;
+    }
+
+    form{
+        width: 85%;
+    }
+
+    .checkbox1{
+        margin-left: -25%;
+    }
+}
+
+@media screen and (max-width: 421px){
+    form{
+        width: 85%;
+    }
+
+    input{
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .buttonheaderresponsive{
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .checkbox1{
+        margin-left: -10%;
+        height: 12px;
+        width: 12px;
+    }
+
+    .labelcheckbox1{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 361px){
+    .LogoHeadera{
+        font-size: 45px;
+    }
+
+    form{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 301px){
+
+
+    .LogoHeader{
+        margin-left: 15px;
+    }
+    
+    .LogoHeadera{
+        font-size: 40px;
+    }
+
+    .buttonheaderresponsive{
+        width: 70px;
+        margin-right: 15px;
+        font-size: 17px;
+    }
+
+    label{
+        font-size: 25px;
+    }
+
+    input{
+        font-size: 13px;
+    }
+}

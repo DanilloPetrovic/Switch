@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'QuickSand';
+    src: url(fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(197, 228, 255);
+    box-shadow: 0px 0px 5px;
+}
+
+.LogoHeader{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.LogoHeadera{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.navbarul{
+    display: flex;
+    list-style: none;
+    font-family: 'QuickSand', sans-serif;
+    color: darkslategray;
+    font-size: 28px;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+.navbarli{
+    margin-left: 23px;
+    transition: 0.2s;
+}
+
+.navbarli:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.navbara{
+    color: darkslategray;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navbara:hover{
+    color: black;
+}
+
+.buttonheader{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+}
+
+.buttonheader:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+/* Main */
+
+/* Sekcija 1 */
+
+.sekcija1{
+    background-color: rgb(209, 234, 255);
+    padding-top: 60px;
+    padding-bottom: 205px;
+    margin-top: 1px;
+}
+
+.switchlogosekcija1{
+    font-family: 'QuickSand', sans-serif;
+    color: rgb(18, 38, 110);
+    font-size: 150px;
+    font-weight: 100;
+}
+
+.switchlogosekcija1:hover{
+    cursor: default;
+}
+
+.stp{
+    font-family: 'QuickSand', sans-serif;
+    color: rgb(37, 64, 164);
+    font-weight: 100;
+    font-size: 70px;
+    margin-top: -10px;
+}
+
+.stp:hover{
+    cursor: default;
+}
+
+.btn1sekcija1{
+    background-color: rgb(18, 38, 110);
+    color: white;
+    text-align: bold;
+    font-family: 'QuickSand', sans-serif;
+    height: 80px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 30px;
+    transition: 0.2s;
+    border: none;
+}
+
+.btn1sekcija1:hover{
+    background-color: rgb(37, 64, 164);
+    cursor: pointer;
+}
+
+/* Sekcija 2 */
+
+.sekcija2{
+    padding-top: 100px;
+    padding-bottom: 230px;
+    background-color: rgb(137, 189, 234);
+}
+
+.naslovsekcija2{
+    font-family: 'QuickSand', serif;
+    color: rgb(37, 64, 164);
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+.naslovsekcija2:hover{
+    cursor: default;
+}
+
+.btnssekcija2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn1sekcija2, .btn2sekcija2, .btn3sekcija2{
+    border: 1px solid rgb(47, 80, 201);
+    background-color: rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', serif;
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.btn1sekcija2:hover, .btn2sekcija2:hover, .btn3sekcija2:hover{
+    background-color: white;
+    color: rgb(47, 80, 201) ;
+    cursor: pointer;
+}
+
+.btn2sekcija2{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.label1sekcija2, .label2sekcija2, .label3sekcija2{
+    font-family: 'QuickSand', serif;
+    font-size: 35px;
+    color: white;
+}
+
+.label1sekcija2:hover, .label2sekcija2:hover, .label3sekcija2:hover{
+    cursor: default;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(95, 121, 143);
+    height: 118px;
+}
+
+/* Kad skontam sta ide u footer */
+
+
+
+
+
+
+/* Responsive */
+
+.navbarulresponsive{
+    list-style: none;
+}
+
+.navbararesponsive{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.navbararesponsive:hover{
+    text-decoration: underline;
+}
+
+.buttonheaderresponsive{
+        background-color: rgb(47, 80, 201);
+        border: 1px solid rgb(47, 80, 201);
+        color: white;
+        font-family: 'QuickSand', sans-serif;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-right: 100px;
+        transition: 0.2s;
+        display: none;
+}
+
+.buttonheaderresponsive:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+.responsivenavbar{
+    background-color: rgb(137, 189, 234);
+    font-family: 'QuickSand', serif;
+    background-color: rgb(137, 189, 234);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.buttonheaderresponsive2{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.buttonheaderresponsive2:hover{
+    background-color: white;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1150px){
+    .LogoHeader{
+        margin-left: 50px;
+    }
+
+    .navbarul{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1065px){
+    .buttonheader{
+        margin-right: 50px;
+    }
+    
+    .buttonheader{
+        display: none;
+    }
+
+    .buttonheaderresponsive{
+        display: block;
+    }
+
+    .navbarul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+
+    .switchlogosekcija1{
+        font-size: 150px;
+    }
+
+    .naslovsekcija2{
+        font-size: 80px;
+    }
+
+    .btn2sekcija2{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .btn1sekcija2, .btn2sekcija2, .btn3sekcija2{
+        width: 200px;
+        height: 60px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .switchlogosekcija1{
+        font-size: 130px;
+    }
+
+    .naslovsekcija2{
+        font-size: 70px;
+    }
+
+    .btn2sekcija2{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .btn1sekcija2, .btn2sekcija2, .btn3sekcija2{
+        width: 180px;
+        height: 50px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btnssekcija2{
+        display: block;
+    }
+
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+
+    .label1sekcija2, .label2sekcija2, .label3sekcija2{
+        font-size: 45px;
+    }
+
+    .btn1sekcija2, .btn2sekcija2, .btn3sekcija2{
+        width: 250px;
+        height: 70px;
+        font-size: 35px;
+    }
+
+    .btn2sekcija2div{
+        margin-top: 20px;
+    }
+
+    .btn3sekcija2div{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .btn1sekcija2{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .switchlogosekcija1{
+        font-size: 100px;
+    }
+
+    .stp{
+        font-size: 45px;
+    }
+
+    .btn1sekcija1{
+        height: 70px;
+        width: 200px;
+    }
+
+    .buttonheaderresponsive{
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .switchlogosekcija1{
+        font-size: 90px;
+    }
+
+    .stp{
+        font-size: 40px;
+    }
+
+    .btn1sekcija1{
+        height: 60px;
+        width: 180px;
+    }
+
+    .buttonheaderresponsive{
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .LogoHeadera{
+        font-size: 45px;
+    }
+
+    .stp{
+        font-size: 35px;
+    }
+
+    .naslovsekcija2{
+        font-size: 60px;
+    }
+
+    .label1sekcija2, .label2sekcija2, .label3sekcija2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 285px){
+    .LogoHeader{
+        margin-left: 20px;
+    }
+    
+    .LogoHeadera{
+        font-size: 40px;
+    }
+
+    .buttonheaderresponsive{
+        width: 70px;
+        margin-right: 20px;
+        font-size: 17px;
+    }
+
+    .switchlogosekcija1{
+        font-size: 70px;
+    }
+
+    .stp{
+        font-size: 40px;
+    }
+
+    .naslovsekcija2{
+        font-size: 50px;
+    }
+
+    .label1sekcija2, .label2sekcija2, .label3sekcija2{
+        font-size: 35px;
+    }
+
+    .btn1sekcija2, .btn2sekcija2, .btn3sekcija2{
+        width: 200px;
+        height: 50px;
+        font-size: 28px;
+    }
+}

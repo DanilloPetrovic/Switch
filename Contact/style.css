@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    font-family: 'QuickSand', serif;
+}
+
+@font-face {
+    font-family: 'QuickSand';
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px;
+}
+
+.LogoHeader{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.LogoHeadera{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.navbarul{
+    display: flex;
+    list-style: none;
+    font-family: 'QuickSand', sans-serif;
+    color: darkslategray;
+    font-size: 28px;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+.navbarli{
+    margin-left: 23px;
+    transition: 0.2s;
+}
+
+.navbarli:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.navbara{
+    color: darkslategray;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navbara:hover{
+    color: black;
+}
+
+.buttonheader{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+}
+
+.buttonheader:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+/* Main */
+
+.main{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.naslovcontact{
+    color: rgb(47, 80, 201);
+    font-size: 90px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.contactDiv{
+    background-color: rgb(104, 159, 206);
+    border-radius: 20px;
+    margin: 0px 300px;
+    margin-top: 20px;
+    padding: 50px 30px;
+    font-size: 25px;
+    text-align: left;
+    color: rgb(95, 121, 143);
+    border: 3px solid rgb(90, 138, 181);
+    transition: all 0.3s;
+}
+
+.emailcontactDiv, .numbercontactDiv, .socialmediacontactDiv{
+    background-color: rgb(98, 150, 196);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 5px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+}
+
+h3 p{
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: rgb(227, 227, 227);
+}
+
+.sendemail{
+    margin-top: 50px;
+}
+
+.nameandemail{
+    display: flex;
+}
+
+.inputname{
+    height: 35px;
+    width: 53%;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 2px solid rgb(95, 121, 143);
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.inputemail{
+    height: 35px;
+    width: 53%;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 2px solid rgb(95, 121, 143);
+    margin-left: 1px;
+    border-radius: 3px;
+}
+
+.inputmessage{
+    width: 99%;
+    height: 250px;
+    border: 2px solid rgb(95, 121, 143);
+    margin-top: 1px;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.sendbtn{
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(47, 80, 201);
+    color: white;
+    font-size: 28px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sendbtn:hover{
+    cursor: pointer;
+    background-color: rgb(38, 65, 160);
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(95, 121, 143);
+    height: 118px;
+}
+
+/* Kad skontam sta ide u footer */
+
+
+
+
+
+
+/* Responsive */
+
+.navbarulresponsive{
+    list-style: none;
+}
+
+.navbararesponsive{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.navbararesponsive:hover{
+    text-decoration: underline;
+}
+
+.buttonheaderresponsive{
+        background-color: rgb(47, 80, 201);
+        border: 1px solid rgb(47, 80, 201);
+        color: white;
+        font-family: 'QuickSand', sans-serif;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-right: 100px;
+        transition: 0.2s;
+        display: none;
+}
+
+.buttonheaderresponsive:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+.responsivenavbar{
+    background-color: rgb(137, 189, 234);
+    font-family: 'QuickSand', serif;
+    background-color: rgb(137, 189, 234);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.buttonheaderresponsive2{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.buttonheaderresponsive2:hover{
+    background-color: white;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .contactDiv{
+        width: 60%;
+        margin: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .LogoHeader{
+        margin-left: 50px;
+    }
+
+    .navbarul{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1065px){
+    .buttonheader{
+        margin-right: 50px;
+    }
+    
+    .buttonheader{
+        display: none;
+    }
+
+    .buttonheaderresponsive{
+        display: block;
+    }
+
+    .navbarul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .contactDiv{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 601px) {
+
+    .naslovcontact{
+        font-size: 50px;
+    }
+
+    input{
+        width: 70%;
+        font-size: 18px;
+    }
+
+    label{
+        font-size: 28px;
+    }
+
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .naslovcontact{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    .nameandemail{
+        display: block;
+    }
+
+    .inputname{
+        margin: 0;
+        width: 99%;
+    }
+
+    .inputemail{
+        margin: 0;
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 421px){
+
+    .buttonheaderresponsive{
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .labelcheckbox1{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 45px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 361px){
+    .LogoHeadera{
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 301px){
+
+
+    .LogoHeader{
+        margin-left: 15px;
+    }
+    
+    .LogoHeadera{
+        font-size: 40px;
+    }
+
+    .buttonheaderresponsive{
+        width: 70px;
+        margin-right: 15px;
+        font-size: 17px;
+    }
+
+    label{
+        font-size: 25px;
+    }
+
+    input{
+        font-size: 13px;
+    }
+
+    .emailcontactp{
+        font-size: 18px;
+    }
+
+}

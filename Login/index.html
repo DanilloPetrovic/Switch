@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Switch - Log In</title>
+</head>
+<body>
+    <div class="sve">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="LogoHeader"><a href="../index.html" class="LogoHeadera">Switch</a></h1>
+
+            <!-- Normal header -->
+            <ul class="navbarul">
+                <li class="navbarli"><a href="../index.html" class="navbara">Home</a></li>
+                <li class="navbarli"><a href="../About/index.html" class="navbara">About</a></li>
+                <li class="navbarli"><a href="../Contact/index.html" class="navbara">Contact</a></li>
+                <li class="navbarli"><a href="../Register/index.html" class="navbara">Register</a></li>
+                <li class="navbarli"><a href="index.html" class="navbara">Log in</a></li>
+            </ul>
+
+            <a href="../Profile/index.html"><button class="buttonheader">Account</button></a>
+            <button onclick="responsivenavbar()" class="buttonheaderresponsive">MENU</button>
+        </header>
+
+        <!-- Responsive -->
+        <div class="responsivenavbar">    
+            <div class="navbarulresponsivediv">
+                <ul class="navbarulresponsive">
+                    <li class="navbarliresponsive"><a href="../index.html" class="navbararesponsive">Home</a></li>
+                    <li class="navbarliresponsive"><a href="../About/index.html" class="navbararesponsive">About</a></li>
+                    <li class="navbarliresponsive"><a href="../Contact/index.html" class="navbararesponsive">Contact</a></li>
+                    <li class="navbarliresponsive"><a href="../Register/index.html" class="navbararesponsive">Register</a></li>
+                    <li class="navbarliresponsive"><a href="index.html" class="navbararesponsive">Log in</a></li>
+                </ul>
+            </div>
+
+            <div class="buttonheaderresponsivediv">
+                <a href="../Profile/index.html"><button class="buttonheaderresponsive2">Account</button></a>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <main class="main">
+            <center>
+                <form>
+                    <h1 class="naslovlogin">Log In</h1>
+
+                    <div class="emailorusername">
+                        <label>Email or Username</label> <br>
+                        <input class="inputemailorusername" type="text" placeholder="Enter your email or username">
+                    </div>
+
+                    <div class="password">
+                        <label>Password</label> <br>
+                        <input class="inputpasswordlogin" type="password" placeholder="Enter your password">
+                        <p class="errorpasswordlogin">Account doesn't exist</p>
+                        <input class="checkbox1" type="checkbox"> <label class="labelcheckbox1" for="">Show password</label>
+                    </div>
+
+                    <button type="button" onclick="Login()" class="loginbtn">Log In</button>
+                </form>
+            </center>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Kod Za Footer :D -->
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

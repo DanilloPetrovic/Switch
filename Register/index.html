@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Switch - Register</title>
+</head>
+<body>
+    <div class="sve">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="LogoHeader"><a href="../index.html" class="LogoHeadera">Switch</a></h1>
+
+            <!-- Normal header -->
+            <ul class="navbarul">
+                <li class="navbarli"><a href="../index.html" class="navbara">Home</a></li>
+                <li class="navbarli"><a href="../About/index.html" class="navbara">About</a></li>
+                <li class="navbarli"><a href="../Contact/index.html" class="navbara">Contact</a></li>
+                <li class="navbarli"><a href="index.html" class="navbara">Register</a></li>
+                <li class="navbarli"><a href="../Login/index.html" class="navbara">Log in</a></li>
+            </ul>
+
+            <a href="../Profile/index.html"><button class="buttonheader">Account</button></a>
+            <button class="buttonheaderresponsive">MENU</button>
+        </header>
+
+        <!-- Responsive -->
+        <div class="responsivenavbar">    
+            <div class="navbarulresponsivediv">
+                <ul class="navbarulresponsive">
+                    <li class="navbarliresponsive"><a href="../index.html" class="navbararesponsive">Home</a></li>
+                    <li class="navbarliresponsive"><a href="../About/index.html" class="navbararesponsive">About</a></li>
+                    <li class="navbarliresponsive"><a href="../Contact/index.html" class="navbararesponsive">Contact</a></li>
+                    <li class="navbarliresponsive"><a href="index.html" class="navbararesponsive">Register</a></li>
+                    <li class="navbarliresponsive"><a href="../Login/index.html" class="navbararesponsive">Log in</a></li>
+                </ul>
+            </div>
+
+            <div class="buttonheaderresponsivediv">
+                <a href="../Profile/index.html"><button class="buttonheaderresponsive2">Account</button></a>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <main class="main">
+            <center>
+                <form>
+                    <h1 class="naslovregister">Register</h1>
+                    
+                    <div class="ime">
+                        <label class="labelime">First Name</label> <br>
+                        <input class="inputime" type="text" placeholder="Enter your first name">
+                        <p class="errorfirstname">first name must contain at least 2 characters</p>
+                    </div>
+                    
+                    <div class="prezime">
+                    <label>Last Name</label> <br>
+                            <input class="inputprezime" type="text" placeholder="Enter your last name">
+                            <p class="errorlastname">last name must contain at least 2 characters</p>
+                    </div>
+
+                    <div class="username">
+                        <label>Username</label> <br>
+                        <input class="inputusername" type="text" placeholder="Enter your username">
+                        <p class="errorusername">username must contain at least 6 characters</p>
+                    </div>
+
+                    <div class="email">
+                        <label>Email</label> <br>
+                        <input class="inputemail" type="text" placeholder="Enter your email">
+                        <p class="erroremail">email is not valid</p>
+                    </div>
+
+                    <div class="confirmemail">
+                        <label>Confirm Email</label> <br>
+                        <input class="inputconfirmemail" type="text" placeholder="Confirm your email">
+                        <p class="errorconfirmemail">emails are not the same</p>
+                    </div>
+
+                    <div class="password">
+                        <label>Password</label> <br>
+                        <input class="inputpassword" type="password" placeholder="Enter your password">
+                        <p class="errorpassword">password must contain at least 6 characters</p>
+                    </div>
+
+                    <div class="confirmpassword">
+                        <label>Confirm Password</label> <br>
+                        <input class="inputconfirmpassword" type="password" placeholder="Confirm your password">
+                        <p class="errorconfirmpassword">passwords are not the same</p>
+                        <input class="checkbox1" type="checkbox"> <label class="labelcheckbox1" for="">Show passwords</label>
+                    </div>
+
+                    <button type="button" class="registerbtn">Register</button>
+                </form>
+            </center>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Kod Za Footer :D -->
+        </footer>
+    </div>
+
+    <script src="scriptRegisterLogin.js"></script>
+</body>
+</html>

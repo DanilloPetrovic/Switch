@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    font-family: 'QuickSand', serif;
+}
+
+@font-face {
+    font-family: 'QuickSand';
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px;
+}
+
+.LogoHeader{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.LogoHeadera{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.navbarul{
+    display: flex;
+    list-style: none;
+    font-family: 'QuickSand', sans-serif;
+    color: darkslategray;
+    font-size: 28px;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+.navbarli{
+    margin-left: 23px;
+    transition: 0.2s;
+}
+
+.navbarli:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.navbara{
+    color: darkslategray;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navbara:hover{
+    color: black;
+}
+
+.buttonheader{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+}
+
+.buttonheader:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+/* Main */
+
+.Profile-Div{
+    background-color: rgb(104, 159, 206);
+    border: 3px solid rgb(90, 138, 181);
+    border-radius: 20px;
+    padding-top: 30px;
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.ProfilePicture-div img{
+    height: 225px;
+    width: 225px;
+    border-radius: 100px;
+    border: 2px solid rgb(90, 138, 181);
+}
+
+label{
+    color: white;
+    font-size: 28px;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 5;
+    margin-bottom: 80px;
+}
+
+.Name-div, .LastName-div, .Email-div, .Password-div{
+    background-color: rgb(92, 144, 189);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: rgb(90, 138, 181);
+    box-shadow: 0px 0px 2px;
+    width: 90%;
+    margin-top: 25px;
+}
+
+.Name-label, .LastName-label, .Email-label, .labelassword-label{
+    font-size: 35px;
+}
+
+.Name-p, .LastName-p, .Email-p, .Password-p{
+    margin-top: 10px;
+    background-color: rgb(99, 150, 195);
+    color: white;
+    padding: 5px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.Name-div{
+    margin-top: 50px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(95, 121, 143);
+    height: 118px;
+}
+
+/* Kad skontam sta ide u footer */
+
+
+
+
+
+
+/* Responsive */
+
+.navbarulresponsive{
+    list-style: none;
+}
+
+.navbararesponsive{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.navbararesponsive:hover{
+    text-decoration: underline;
+}
+
+.buttonheaderresponsive{
+        background-color: rgb(47, 80, 201);
+        border: 1px solid rgb(47, 80, 201);
+        color: white;
+        font-family: 'QuickSand', sans-serif;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-right: 100px;
+        transition: 0.2s;
+        display: none;
+}
+
+.buttonheaderresponsive:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+.responsivenavbar{
+    background-color: rgb(137, 189, 234);
+    font-family: 'QuickSand', serif;
+    background-color: rgb(137, 189, 234);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.buttonheaderresponsive2{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.buttonheaderresponsive2:hover{
+    background-color: white;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1150px){
+    .LogoHeader{
+        margin-left: 50px;
+    }
+
+    .navbarul{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1065px){
+    .buttonheader{
+        margin-right: 50px;
+    }
+    
+    .buttonheader{
+        display: none;
+    }
+
+    .buttonheaderresponsive{
+        display: block;
+    }
+
+    .navbarul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    .Profile-Div{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 601px) {
+
+    .naslovregister{
+        font-size: 50px;
+    }
+
+    input{
+        width: 70%;
+        font-size: 18px;
+    }
+
+    label{
+        font-size: 28px;
+    }
+
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+
+    .Profile-Div{
+        width: 85%;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .naslovregister{
+        font-size: 40px;
+    }
+
+    form{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 421px){
+    form{
+        width: 85%;
+    }
+
+    input{
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .buttonheaderresponsive{
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 361px){
+    .LogoHeadera{
+        font-size: 45px;
+    }
+
+    form{
+        width: 90%;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    .ProfilePicture-div img{
+        height: 175px;
+        width: 175px;
+    }
+
+    .Email-p{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 301px){
+
+
+    .LogoHeader{
+        margin-left: 15px;
+    }
+    
+    .LogoHeadera{
+        font-size: 40px;
+    }
+
+    .buttonheaderresponsive{
+        width: 70px;
+        margin-right: 15px;
+        font-size: 17px;
+    }
+
+    label{
+        font-size: 25px;
+    }
+
+    input{
+        font-size: 13px;
+    }
+}

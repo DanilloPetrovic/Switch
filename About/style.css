@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    font-family: 'QuickSand', sans-serif;
+    transition: 0.3s;
+}
+
+@font-face {
+    font-family: 'QuickSand';
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+/* Header */
+
+header{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 5px;
+}
+
+.LogoHeader{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.LogoHeadera{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    color: rgb(47, 80, 201);
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.navbarul{
+    display: flex;
+    list-style: none;
+    font-family: 'QuickSand', sans-serif;
+    color: darkslategray;
+    font-size: 28px;
+    font-weight: 100;
+    margin-right: 50px;
+}
+
+.navbarli{
+    margin-left: 23px;
+    transition: 0.2s;
+}
+
+.navbarli:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.navbara{
+    color: darkslategray;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navbara:hover{
+    color: black;
+}
+
+.buttonheader{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+}
+
+.buttonheader:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+/* Main */
+
+.main{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.NaslovMainAbout{
+    color: rgb(47, 80, 201);
+    font-size: 90px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.aboutDiv{
+    background-color: rgb(104, 159, 206);
+    border-radius: 20px;
+    margin: 0px 200px;
+    margin-top: 20px;
+    padding: 50px 30px;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    border: 3px solid rgb(90, 138, 181);
+    transition: all 0.3s;
+}
+
+.aboutSRP{
+    /* display: none; */
+    position: relative;
+    transition: all 0.2s;
+    opacity: 0;
+}
+
+.aboutENG{
+    position: absolute;
+    opacity: 1;
+    display: block;
+    transition: all 0.2s;
+    width: 60%;
+}
+
+
+.aboutp2, .aboutp3, .aboutp4{
+    margin-top: 20px;
+} 
+
+.about21, .about22, .about23, .about24{
+    margin-top: 20px;
+}
+
+.aboutUL{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(212, 212, 212);
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.aboutLI{
+    margin-left: 20px;
+}
+
+.aboutLI:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(95, 121, 143);
+    height: 118px;
+}
+
+/* Kad skontam sta ide u footer */
+
+
+
+
+
+
+/* Responsive */
+
+.navbarulresponsive{
+    list-style: none;
+}
+
+.navbararesponsive{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.navbararesponsive:hover{
+    text-decoration: underline;
+}
+
+.buttonheaderresponsive{
+        background-color: rgb(47, 80, 201);
+        border: 1px solid rgb(47, 80, 201);
+        color: white;
+        font-family: 'QuickSand', sans-serif;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+        border-radius: 10px;
+        margin-right: 100px;
+        transition: 0.2s;
+        display: none;
+}
+
+.buttonheaderresponsive:hover{
+    background-color: transparent;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+.responsivenavbar{
+    background-color: rgb(137, 189, 234);
+    font-family: 'QuickSand', serif;
+    background-color: rgb(137, 189, 234);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.buttonheaderresponsive2{
+    background-color: rgb(47, 80, 201);
+    border: 1px solid rgb(47, 80, 201);
+    color: white;
+    font-family: 'QuickSand', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.2s;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.buttonheaderresponsive2:hover{
+    background-color: white;
+    color: rgb(47, 80, 201);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1180px) {
+    .aboutUL{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .LogoHeader{
+        margin-left: 50px;
+    }
+
+    .navbarul{
+        font-size: 25px;
+    }
+
+    .aboutUL{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 1065px){
+    .buttonheader{
+        margin-right: 50px;
+    }
+    
+    .buttonheader{
+        display: none;
+    }
+
+    .buttonheaderresponsive{
+        display: block;
+    }
+
+    .navbarul{
+        display: none;
+    }
+    
+    .aboutDiv{
+        margin: 0px 100px;
+    }
+
+    .aboutDiv{
+        margin: 0px 150px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }   
+}
+
+@media screen and (max-width: 870px){
+    .aboutDiv{
+        width: 65%;
+        margin: 0px;
+    }
+
+    
+    .aboutUL{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .aboutDiv{
+        width: 65%;
+    }
+
+    .aboutUL{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .buttonheaderresponsive{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .buttonheaderresponsive{
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .buttonheaderresponsive{
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .NaslovMainAbout{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .LogoHeadera{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .LogoHeader{
+        margin-left: 20px;
+    }
+    
+    .LogoHeadera{
+        font-size: 40px;
+    }
+
+    .buttonheaderresponsive{
+        width: 70px;
+        margin-right: 20px;
+        font-size: 17px;
+    }
+
+    .NaslovMainAbout{
+        font-size: 80px;
+    }
+
+    .aboutDiv{
+        height: 1900px;
+        font-size: 23px;
+    }
+}
